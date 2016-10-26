@@ -466,3 +466,5 @@ var boxProperties = {
 };
 
 var drumBox = Entities.addEntity(boxProperties);
+
+Script.stop();
