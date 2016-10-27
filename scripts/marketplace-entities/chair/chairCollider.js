@@ -31,7 +31,7 @@
             Entities.callEntityMethod(this.parentID, 'maybeSit');
         },
         leaveEntity: function(entityID) {
-            Entities.callEntityMethod(this.parentID, 'standUp');
+            Entities.callEntityMethod(this.parentID, 'unload');
         }
     }
 

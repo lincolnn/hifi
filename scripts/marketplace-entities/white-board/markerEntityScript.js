@@ -16,8 +16,6 @@
 
     var MAX_POINTS_PER_STROKE = 40;
     var _this;
-    var LEFT_HAND = 0;
-    var RIGHT_HAND = 1;
 
     MarkerTip = function() {
         _this = this;
@@ -57,7 +55,7 @@
 
         },
 
-        continueNearGrab: function(hand) {
+        continueNearGrab: function(ID, paramsArray) {
             // cast a ray from marker and see if it hits anything
             var markerProps = Entities.getEntityProperties(_this.entityID);
 
@@ -81,9 +79,8 @@
 
                 _this.paint(intersection.intersection)
             
-                // print(JSON.stringify(hand))
-                hand = hand === 'left' ? 0 : 1;
-                var vibrated = Controller.triggerHapticPulse(1, 20, hand);
+                hand = paramsArray[0] === 'left' ? 0 : 1;
+                var vibrated = Controller.triggerHapticPulse(0.8, 20, hand);
 
             } else {
                 if (_this.currentStroke) {
@@ -97,8 +94,8 @@
             _this.startNearGrab();
         },
 
-        continueEquip: function() {
-            _this.continueNearGrab();
+        continueEquip: function(ID, paramsArray) {
+            _this.continueNearGrab(ID, paramsArray);
         },
 
         newStroke: function(position) {

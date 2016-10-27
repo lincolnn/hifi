@@ -30,7 +30,8 @@
             "y": -0.67096579074859619,
             "z": 1.2137455996708013e-05
         },
-        "script": "http://mpassets.highfidelity.com/eade2963-c737-497d-929f-b327cc5d7a48-v1/swiper.js",
+        // "script": "http://mpassets.highfidelity.com/eade2963-c737-497d-929f-b327cc5d7a48-v1/swiper.js",
+        "script": "http://localhost:8080/white-board/swiper.js",
         "shapeType": "compound",
         "type": "Model"
     }, {
@@ -137,7 +138,7 @@
             "y": 0.88079655170440674,
             "z": -1.52587890625e-05
         },
-        "script": "http://mpassets.highfidelity.com/eade2963-c737-497d-929f-b327cc5d7a48-v1/whiteboard.js",
+        "script": "http://localhost:8080/white-board/whiteboard.js",
         "shapeType": "compound",
         "type": "Model"
     }],

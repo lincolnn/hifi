@@ -9,8 +9,8 @@
 (function() {
 
     var _this;
-    var MARKER_SCRIPT_URL = "http://localhost:8080/markerEntityScript.js";
-    var ERASER_SCRIPT_URL = "http://mpassets.highfidelity.com/eade2963-c737-497d-929f-b327cc5d7a48-v1/eraserEntityScript.js";
+    var MARKER_SCRIPT_URL = "http://localhost:8080/white-board/markerEntityScript.js";
+    var ERASER_SCRIPT_URL = "http://localhost:8080/white-board/eraserEntityScript.js";
 
     Whiteboard = function() {
         _this = this;
@@ -200,9 +200,6 @@
 
             var eraser = Entities.addEntity(eraserProps);
         },
-        handleMessages: function() {
-            
-        }
 
     }
 
