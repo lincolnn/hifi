@@ -22,7 +22,7 @@
 
     var BASE_PATH = "http://mpassets.highfidelity.com/875bcd3b-7b7d-45a1-a429-c0c6eefad95d-v1/";
 	// var COLLIDER_SCRIPT_URL = "http://mpassets.highfidelity.com/875bcd3b-7b7d-45a1-a429-c0c6eefad95d-v1/chairCollider.js?v=1";
-    var COLLIDER_SCRIPT_URL = "http://localhost:8080/chair/chairCollider.js";
+    var COLLIDER_SCRIPT_URL = "https://hifi-content.s3.amazonaws.com/lincoln/chairCollider.js";
     var SIT_MAPPING_NAME = "chair.sit.override";
     var IK_TYPES = {
         RotationAndPosition: 0,

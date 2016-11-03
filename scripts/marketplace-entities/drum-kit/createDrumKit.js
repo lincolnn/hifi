@@ -3,6 +3,7 @@
 var SPRING_ENTITY_SCRIPT_URL = "https://hifi-content.s3.amazonaws.com/lincoln/ballSpring.js";
 
 function getPosition(pos) {
+    // rotate 45 degrees
     return Vec3.sum(MyAvatar.position, pos)
 };
 

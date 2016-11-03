@@ -17,6 +17,7 @@
     var MAX_POINTS_PER_STROKE = 40;
     var _this;
 
+    // subscribe to channel 
     MarkerTip = function() {
         _this = this;
         _this.MARKER_TEXTURE_URL = "http://mpassets.highfidelity.com/eade2963-c737-497d-929f-b327cc5d7a48-v1/markerStroke.png";
@@ -32,11 +33,27 @@
         _this.WHITEBOARD_SURFACE_NAME = "hifi-whiteboardDrawingSurface"
     };
 
+
+    function handleColorMessage(channel, message, senderID) {
+        if(channel == "Ink-Color") {
+            print("sent")
+            print(channel, message, senderID)
+            setEntityCustomData("markerColor", _this.entityID, JSON.parse(message))
+        }
+    };
+
+    Messages.subscribe("Ink-Color");
+    Messages.messageReceived.connect(handleColorMessage);  
+
+
     MarkerTip.prototype = {
 
         startNearGrab: function() {
+          
             _this.whiteboards = [];
+
             _this.markerColor = getEntityUserData(_this.entityID).markerColor;
+
             var markerProps = Entities.getEntityProperties(_this.entityID);
             _this.DRAW_ON_BOARD_DISTANCE = markerProps.dimensions.z / 2;
             var markerPosition = markerProps.position;
@@ -47,17 +64,19 @@
                     _this.whiteboards.push(entity);
                 }
             });
-
         },
 
         releaseGrab: function() {
             _this.resetStroke();
-
         },
 
         continueNearGrab: function(ID, paramsArray) {
+
             // cast a ray from marker and see if it hits anything
             var markerProps = Entities.getEntityProperties(_this.entityID);
+
+            // update color with from palette
+            _this.markerColor = getEntityUserData(_this.entityID).markerColor;
 
             //need to back up the ray to the back of the marker 
 

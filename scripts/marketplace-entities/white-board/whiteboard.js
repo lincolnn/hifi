@@ -47,17 +47,17 @@
 
             var markerPosition = Vec3.sum(_this.spawnPosition, Vec3.multiply(Quat.getFront(_this.orientation), -0.1));
 
-            _this.createMarker(modelURLS[0], markerPosition, {
-                red: 10,
-                green: 10,
-                blue: 200
-            });
+            // _this.createMarker(modelURLS[0], markerPosition, {
+            //     red: 10,
+            //     green: 10,
+            //     blue: 200
+            // });
 
-            _this.createMarker(modelURLS[1], markerPosition, {
-                red: 200,
-                green: 10,
-                blue: 10
-            });
+            // _this.createMarker(modelURLS[1], markerPosition, {
+            //     red: 200,
+            //     green: 10,
+            //     blue: 10
+            // });
 
             _this.createMarker(modelURLS[2], markerPosition, {
                 red: 10,

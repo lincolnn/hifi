@@ -21,7 +21,6 @@
             Script.update.connect(this.update);
         },
         clickReleaseOnEntity: function() {
-            print("test test")
             this.createSupplies();
         },
         update: function() {
