@@ -9,8 +9,9 @@
 		preload: function(entityID) {
 			this.entityID = entityID;
 		},
-		clickReleaseOnEntity: function() {
-			print("clicked..")
+		clickReleaseOnEntity: function(entityItemID, mouseEvent) {
+			print("clicked.." + JSON.stringify(entityItemID))
+			
 		},
 		createWebEntity: function() {
 			var webEntityProperties = {};

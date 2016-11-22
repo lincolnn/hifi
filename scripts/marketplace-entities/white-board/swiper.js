@@ -53,6 +53,7 @@
             Entities.callEntityMethod(myProperties.parentID, "createEraser");
 
         },
+
         unload: function() {
             Script.update.disconnect(this.update);
         }

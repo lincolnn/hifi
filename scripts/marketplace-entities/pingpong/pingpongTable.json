@@ -1,0 +1,164 @@
+{
+    "Entities": [
+        {
+            "age": 933.9415283203125,
+            "ageAsText": "0 hours 15 minutes 33 seconds",
+            "clientOnly": 0,
+            "collisionsWillMove": 1,
+            "created": "2016-11-02T22:25:51Z",
+            "density": 100,
+            "dimensions": {
+                "x": 0.040000006556510925,
+                "y": 0.040000021457672119,
+                "z": 0.040000010281801224
+            },
+            "dynamic": 1,
+            "gravity": {
+                "x": 0,
+                "y": -5,
+                "z": 0
+            },
+            "id": "{1d43820d-46c1-42d2-82d6-3f177bad7248}",
+            "lifetime": 3600,
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/ball.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.20030593872070312,
+                "y": 0.50086146593093872,
+                "z": 1.16046142578125
+            },
+            "queryAACube": {
+                "scale": 0.069282054901123047,
+                "x": 0.1656649112701416,
+                "y": 0.4662204384803772,
+                "z": 1.1258203983306885
+            },
+            "restitution": 0.99000000953674316,
+            "rotation": {
+                "w": 0.59896242618560791,
+                "x": -0.26530861854553223,
+                "y": -0.66530859470367432,
+                "z": 0.35814452171325684
+            },
+            "shapeType": "sphere",
+            "type": "Model",
+            "userData": "{}"
+        },
+        {
+            "age": 1298.6383056640625,
+            "ageAsText": "0 hours 21 minutes 38 seconds",
+            "clientOnly": 0,
+            "collisionsWillMove": 1,
+            "created": "2016-11-02T22:19:18Z",
+            "dimensions": {
+                "x": 0.028670955449342728,
+                "y": 0.37590110301971436,
+                "z": 0.24051955342292786
+            },
+            "dynamic": 1,
+            "gravity": {
+                "x": 0,
+                "y": -5,
+                "z": 0
+            },
+            "id": "{ca8a94f4-67af-474c-959d-cbbf42834207}",
+            "lifetime": 3600,
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/paddleRed.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.42786407470703125,
+                "y": 0.52086210250854492,
+                "z": 2.50579833984375
+            },
+            "queryAACube": {
+                "scale": 0.447183758020401,
+                "x": 0.20427219569683075,
+                "y": 0.29727023839950562,
+                "z": 2.2822065353393555
+            },
+            "restitution": 0.75,
+            "rotation": {
+                "w": -0.034622728824615479,
+                "x": 0.70623326301574707,
+                "y": -0.70629435777664185,
+                "z": 0.034592151641845703
+            },
+            "shapeType": "simple-compound",
+            "type": "Model",
+            "userData": "{}"
+        },
+        {
+            "age": 1286.020751953125,
+            "ageAsText": "0 hours 21 minutes 26 seconds",
+            "clientOnly": 0,
+            "collisionsWillMove": 1,
+            "created": "2016-11-02T22:19:18Z",
+            "dimensions": {
+                "x": 0.028670955449342728,
+                "y": 0.37590110301971436,
+                "z": 0.24051955342292786
+            },
+            "dynamic": 1,
+            "gravity": {
+                "x": 0,
+                "y": -5,
+                "z": 0
+            },
+            "id": "{bbcb7ce5-9fa0-4628-9ec6-f02d4e871dcb}",
+            "lifetime": 3600,
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/paddleBlue.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.11736297607421875,
+                "y": 0.52086043357849121,
+                "z": 0
+            },
+            "queryAACube": {
+                "scale": 0.447183758020401,
+                "x": -0.10622890293598175,
+                "y": 0.2972685694694519,
+                "z": -0.2235918790102005
+            },
+            "restitution": 0.75,
+            "rotation": {
+                "w": 0.5211414098739624,
+                "x": 0.4778667688369751,
+                "y": 0.4778972864151001,
+                "z": 0.5211414098739624
+            },
+            "shapeType": "simple-compound",
+            "type": "Model",
+            "userData": "{}"
+        },
+        {
+            "age": 1319.805908203125,
+            "ageAsText": "0 hours 21 minutes 59 seconds",
+            "clientOnly": 0,
+            "created": "2016-11-02T22:19:18Z",
+            "dimensions": {
+                "x": 2.5778679847717285,
+                "y": 1.3362609148025513,
+                "z": 4.1100001335144043
+            },
+            "id": "{75198bca-a305-4760-8c79-1c6f69498bfa}",
+            "lifetime": 3600,
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/table.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 1.0643310546875
+            },
+            "queryAACube": {
+                "scale": 5.0322060585021973,
+                "x": -2.5161030292510986,
+                "y": -2.5161030292510986,
+                "z": -1.4517719745635986
+            },
+            "restitution": 0.85000002384185791,
+            "shapeType": "static-mesh",
+            "type": "Model"
+        }
+    ],
+    "Version": 64
+}

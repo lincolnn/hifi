@@ -1,0 +1,30 @@
+{
+    "Entities": [
+        {
+            "clientOnly": 0,
+            "created": "2016-11-16T00:12:10Z",
+            "dimensions": {
+                "x": 0.028433980420231819,
+                "y": 0.38913285732269287,
+                "z": 0.25829383730888367
+            },
+            "id": "{4a71d1f8-b057-458a-8866-e3206c9f9fe7}",
+            "lastEditedBy": "{a2f30108-2f1d-41b0-ae56-72738bcb6a39}",
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/paddleRed_Grabbable.fbx",
+            "name": "Red",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "queryAACube": {
+                "scale": 0.46791940927505493,
+                "x": -0.23395970463752747,
+                "y": -0.23395970463752747,
+                "z": -0.23395970463752747
+            },
+            "script": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/pingpong/pongSpawner.js",
+            "scriptTimestamp": 1479253874585,
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"wantsTrigger\":true,\"grabbable\":true}}"
+        }
+    ],
+    "Version": 65
+}

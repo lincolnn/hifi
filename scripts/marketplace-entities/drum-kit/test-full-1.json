@@ -1,0 +1,293 @@
+{
+    "Entities": [
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:42:35Z",
+            "dimensions": {
+                "x": 0.34498167037963867,
+                "y": 0.37092894315719604,
+                "z": 0.39761841297149658
+            },
+            "id": "{304120d6-6efc-4544-b2f2-5a12ef252449}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/drum2-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 1.1609649658203125,
+                "y": 0.88442659378051758,
+                "z": 0.68560028076171875
+            },
+            "queryAACube": {
+                "scale": 0.64397281408309937,
+                "x": 0.83897852897644043,
+                "y": 0.56244015693664551,
+                "z": 0.36361387372016907
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:44:46Z",
+            "dimensions": {
+                "x": 0.41699486970901489,
+                "y": 0.43548744916915894,
+                "z": 0.48801633715629578
+            },
+            "id": "{55fa93ee-27c0-4dd9-a9d7-b2c172e911ab}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/drum3-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.7328338623046875,
+                "y": 0.89075171947479248,
+                "z": 0.6605377197265625
+            },
+            "queryAACube": {
+                "scale": 0.77568936347961426,
+                "x": 0.34498918056488037,
+                "y": 0.50290703773498535,
+                "z": 0.27269303798675537
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:38:13Z",
+            "dimensions": {
+                "x": 0.52639341354370117,
+                "y": 0.3694990873336792,
+                "z": 0.54592406749725342
+            },
+            "id": "{664dbc91-7845-4316-b3e4-69f0fcc9cec8}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/drum1-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 1.6041107177734375,
+                "y": 0.77177548408508301,
+                "z": 0.44487762451171875
+            },
+            "queryAACube": {
+                "scale": 0.84359508752822876,
+                "x": 1.1823132038116455,
+                "y": 0.34997794032096863,
+                "z": 0.02308008074760437
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:14:11Z",
+            "dimensions": {
+                "x": 0.46974867582321167,
+                "y": 0.1457744836807251,
+                "z": 0.45663085579872131
+            },
+            "id": "{cd9e2473-5dfd-4527-ad94-e0602a779db8}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/cymbal2-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 1.8203125,
+                "y": 1.5102405548095703,
+                "z": 0.4415740966796875
+            },
+            "queryAACube": {
+                "scale": 0.67113763093948364,
+                "x": 1.4847437143325806,
+                "y": 1.1746717691421509,
+                "z": 0.10600528120994568
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-19T00:04:26Z",
+            "dimensions": {
+                "x": 0.26896500587463379,
+                "y": 0.30346953868865967,
+                "z": 0.47600585222244263
+            },
+            "id": "{974f2939-b1f6-485d-b9f5-7923eceda0c2}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/foot-pedal.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.957855224609375,
+                "y": 0,
+                "z": 0.403778076171875
+            },
+            "queryAACube": {
+                "scale": 0.62531393766403198,
+                "x": 0.64519822597503662,
+                "y": -0.31265696883201599,
+                "z": 0.091121107339859009
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:49:08Z",
+            "dimensions": {
+                "x": 0.64289277791976929,
+                "y": 0.5800899863243103,
+                "z": 0.62042969465255737
+            },
+            "id": "{2fb4818c-a994-41c0-a757-d5b81cb185de}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/drum4-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.3082733154296875,
+                "y": 0.65295219421386719,
+                "z": 0.12012481689453125
+            },
+            "queryAACube": {
+                "scale": 1.0652457475662231,
+                "x": -0.22434955835342407,
+                "y": 0.12032932043075562,
+                "z": -0.41249805688858032
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:51:19Z",
+            "dimensions": {
+                "x": 0.75743484497070312,
+                "y": 0.24513399600982666,
+                "z": 0.79513669013977051
+            },
+            "id": "{fa29b067-81f9-4878-9ad9-80b03b0c85cc}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/cymbal4-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0,
+                "y": 1.2411255836486816,
+                "z": 0
+            },
+            "queryAACube": {
+                "scale": 1.1251846551895142,
+                "x": -0.56259232759475708,
+                "y": 0.67853325605392456,
+                "z": -0.56259232759475708
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "collisionless": 1,
+            "created": "2016-11-18T22:08:39Z",
+            "description": "Drum Set Base",
+            "dimensions": {
+                "x": 3.0173230171203613,
+                "y": 1.8752377033233643,
+                "z": 1.8151965141296387
+            },
+            "id": "{0ead4f83-eea8-4555-8cd5-ffbc28f4ec77}",
+            "ignoreForCollisions": 1,
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://hifi-content.s3.amazonaws.com/lincoln/drum/drums.fbx",
+            "name": "Drum Set",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 1.0009765625,
+                "y": 0.75264191627502441,
+                "z": 0.28891754150390625
+            },
+            "queryAACube": {
+                "scale": 3.9894478321075439,
+                "x": -0.99374735355377197,
+                "y": -1.2420819997787476,
+                "z": -1.7058063745498657
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:16:22Z",
+            "dimensions": {
+                "x": 0.61362504959106445,
+                "y": 0.25247824192047119,
+                "z": 0.61067259311676025
+            },
+            "id": "{51e726b4-ee94-4da7-98e5-ec407922e231}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/cymbal3-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0.3063812255859375,
+                "y": 1.5809385776519775,
+                "z": 0.40164947509765625
+            },
+            "queryAACube": {
+                "scale": 0.90177714824676514,
+                "x": -0.14450734853744507,
+                "y": 1.1300499439239502,
+                "z": -0.049239099025726318
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-18T23:03:16Z",
+            "dimensions": {
+                "x": 0.42302805185317993,
+                "y": 0.15265107154846191,
+                "z": 0.42302975058555603
+            },
+            "id": "{84c38492-b43e-48d6-ad37-44d7b1a712c2}",
+            "lastEditedBy": "{387c4b02-0ef0-4bee-886f-1e3d7fb7f66d}",
+            "modelURL": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/drum/cymbal1-head.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 1.8902130126953125,
+                "y": 1.2404130697250366,
+                "z": 0.06819915771484375
+            },
+            "queryAACube": {
+                "scale": 0.61742144823074341,
+                "x": 1.5815023183822632,
+                "y": 0.9317023754119873,
+                "z": -0.24051156640052795
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "shapeType": "static-mesh",
+            "type": "Model"
+        }
+    ],
+    "Version": 65
+}

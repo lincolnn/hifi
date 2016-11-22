@@ -21,7 +21,14 @@
 			print("Marker color: " + JSON.stringify(_this.markerColor))
 			
 			Messages.sendMessage('Ink-Color', JSON.stringify(_this.markerColor))		
-		}
+		},
+		collisionWithEntity: function(EntityItemID,OtherItemID,Collision) {
+			
+			print("Collided: " + JSON.stringify(EntityItemID, OtherItemID, Collision))
+			_this.markerColor = getEntityUserData(EntityItemID).markerColor;
+			Messages.sendMessage('Ink-Color', JSON.stringify(_this.markerColor));
+		} 
+		
 	}
 
 	return new Palette();

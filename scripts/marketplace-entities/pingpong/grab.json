@@ -1,0 +1,77 @@
+{
+    "Entities": [
+        {
+            "clientOnly": 0,
+            "created": "2016-11-16T00:12:10Z",
+            "dimensions": {
+                "x": 0.028433980420231819,
+                "y": 0.38913285732269287,
+                "z": 0.25829383730888367
+            },
+            "id": "{4a71d1f8-b057-458a-8866-e3206c9f9fe7}",
+            "lastEditedBy": "{441a9050-de74-4722-8581-e6b7057f16c3}",
+            "modelURL": "https://hifi-content.s3.amazonaws.com/jimi/pingpong/paddleRed_Grabbable.fbx",
+            "name": "Red",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 2.7560577392578125,
+                "y": 0.065365836024284363,
+                "z": 0
+            },
+            "queryAACube": {
+                "scale": 0.46791940927505493,
+                "x": 2.5220980644226074,
+                "y": -0.1685938686132431,
+                "z": -0.23395970463752747
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "script": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/pingpong/pongSpawner.js",
+            "scriptTimestamp": 1479253874585,
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"wantsTrigger\":true,\"grabbable\":true}}"
+        },
+        {
+            "clientOnly": 0,
+            "created": "2016-11-15T23:48:08Z",
+            "dimensions": {
+                "x": 0.028433980420231819,
+                "y": 0.38913285732269287,
+                "z": 0.25829383730888367
+            },
+            "id": "{dad8e251-8840-4634-b6cd-e96cc1c07aed}",
+            "lastEditedBy": "{441a9050-de74-4722-8581-e6b7057f16c3}",
+            "modelURL": "atp:/paddleRed_Grabbable.fbx",
+            "name": "Blue",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 2.998565673828125
+            },
+            "queryAACube": {
+                "scale": 0.46791940927505493,
+                "x": -0.23395970463752747,
+                "y": -0.23395970463752747,
+                "z": 2.7646059989929199
+            },
+            "rotation": {
+                "w": -1.52587890625e-05,
+                "x": 1.52587890625e-05,
+                "y": -1,
+                "z": -1.52587890625e-05
+            },
+            "script": "https://s3-us-west-1.amazonaws.com/hifi-content/lincoln/pingpong/pongSpawner.js",
+            "scriptTimestamp": 1479253874585,
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"wantsTrigger\":true,\"grabbable\":true}}"
+        }
+    ],
+    "Version": 65
+}

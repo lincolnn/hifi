@@ -9,8 +9,8 @@
 (function() {
 
     var _this;
-    var MARKER_SCRIPT_URL = "http://localhost:8080/white-board/markerEntityScript.js";
-    var ERASER_SCRIPT_URL = "http://localhost:8080/white-board/eraserEntityScript.js";
+    var MARKER_SCRIPT_URL = "https://hifi-content.s3.amazonaws.com/lincoln/white-board/markerEntityScript.js";
+    var ERASER_SCRIPT_URL = "https://hifi-content.s3.amazonaws.com/lincoln/white-board/eraserEntityScript.js";
 
     Whiteboard = function() {
         _this = this;
@@ -59,7 +59,7 @@
             //     blue: 10
             // });
 
-            _this.createMarker(modelURLS[2], markerPosition, {
+            _this.createMarker(modelURLS[0], markerPosition, {
                 red: 10,
                 green: 10,
                 blue: 10

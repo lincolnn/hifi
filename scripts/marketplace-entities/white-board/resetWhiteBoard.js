@@ -1,9 +1,10 @@
 (function() {
     var _this;
     
+    
     ResetBoard = function() {
         _this = this;
-        _this.RESET_STROKE_SEARCH_RADIUS = 1.8;
+        _this.RESET_STROKE_SEARCH_RADIUS = 5;
         _this.STROKE_NAME = "hifi_polyline_markerStroke";
     }
 
